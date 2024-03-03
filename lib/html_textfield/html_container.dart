@@ -54,7 +54,7 @@ class _HtmlContainerViewState extends State<HtmlContainerView> {
         hintText: widget.hintText,
         controller: controller,
         isEnabled: false,
-        ensureVisible: false,
+        ensureVisible: true,
         minHeight: 200,
         autoFocus: false,
         textStyle: widget.editorTextStyle,
